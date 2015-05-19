@@ -1,7 +1,0 @@
-image: amos6224/namely.3
-script: 
- - /etc/init.d/postgresql start
- - /etc/init.d/redis_6379 start
- - sleep 10
- - sudo -u postgres createuser --superuser root
- - /etc/init.d/postgresql reload
